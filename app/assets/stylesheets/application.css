@@ -13,6 +13,23 @@
  *= require_tree .
  *= require_self
  */
+ 
+header {
+  width: 100%;
+  padding: 50px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  height: 80px; 
+  text-align: center;
+  padding: 50px 0;
+  background-color: #BBBBBB;
+  position: absolute;
+  bottom: 0;
+}
 
 body {
   font-family: Alegreya Sans;
