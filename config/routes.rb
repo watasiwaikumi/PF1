@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   root to: 'homes#top'
   get 'home/about' => 'homes#about'
   get 'home/top' => 'homes#top'
+  get 'home/sns' => 'homes#sns'
   
 end
