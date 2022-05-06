@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'home/about' => 'homes#about'
   get 'home/top' => 'homes#top'
   get 'home/sns' => 'homes#sns'
+  get 'home/work' => 'homes#work'
   get 'home/contact' => 'homes#contact'
   
   resources :contacts, only: [:new, :create]
