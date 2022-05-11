@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get 'home/sns' => 'homes#sns'
   get 'home/work' => 'homes#work'
   get 'home/contact' => 'homes#contact'
+  get 'home/portfolio' => 'homes#portfolio'
   
   resources :contacts, only: [:new, :create]
   post 'contacts/confirm', to: 'contacts#confirm', as: 'confirm'
